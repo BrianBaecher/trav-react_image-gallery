@@ -6,7 +6,7 @@ const ImageSearch = (props) => {
   const onSubmit = (e) => {
     e.preventDefault();
     props.searchText(text);
-    e.target[0].value = "Search Image Term...";
+    e.target[0].value = "";
   };
 
   return (
